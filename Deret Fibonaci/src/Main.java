@@ -25,7 +25,7 @@ public class Main {
         int f_n   = 1;
         int f_n_1 = 1 ;
         int f_n_2 = 0 ;
-        n = n-2 ; // n-2 karena didalam array sudah ada terlebih dahulu u1 dan u2 sehingga jika user minta tampilkan 5 angka , loop cukup menghasilkan 3 angka saja karena sudah ada 2 angka di array terlebih dahulu.
+        n -=2 ; // n-2 karena didalam array sudah ada terlebih dahulu u1 dan u2 sehingga jika user minta tampilkan 5 angka , loop cukup menghasilkan 3 angka saja karena sudah ada 2 angka di array terlebih dahulu.
         for(int i=0 ; i<n ; i++){
             f_n = f_n_1 + f_n_2 ;
             numbers[index]= f_n ; //memasukan hasil looping ke array
