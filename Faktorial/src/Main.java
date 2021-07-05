@@ -6,7 +6,7 @@ public class Main {
         int angka = input.nextInt();
         double hasil = angka;
         for(int i = 1 ; i < angka ; i++){
-             hasil = hasil*(angka-i);
+             hasil *= (angka-i);
         }
         System.out.println("Hasil dari "+angka+ "! = "+hasil);
     }
